@@ -27,8 +27,7 @@ def printExtract(extrato):
     print('Transações realizadas na sua conta: \n')
     for elemento in extrato:
         print(f'{elemento['tipo']}: R$ {elemento['valor']:.2f}')
-    
-    print('\n \n')
+    print(f'Saldo: R${saldo:.2f}\n \n')
 
 while True: 
     print('1-Depositar  \n2-Sacar \n3-Extrato \n4-Saldo \n5-Sair')
